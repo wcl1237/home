@@ -20,6 +20,14 @@ export default defineConfig({
                     path: 'https://unpkg.com/react-dom@17/umd/react-dom.production.min.js',
                 },
             ],
-        }),hooks(),
-        reactRefresh(),],
+        }),
+        hooks(),
+        reactRefresh(),
+    ],
+    // resolve: {
+    //     alias: {
+    //         "react": "https://esm.sh/react@17",
+    //         "react-dom": "https://esm.sh/react-dom@17",
+    //     }
+    // }
 });
